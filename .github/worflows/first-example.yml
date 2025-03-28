@@ -9,8 +9,8 @@ job:
     - name: Welcome message
       run:echo "My first Git Hub Actions Job"
 
-      -name: List filters
+      - name: List filters
       run: ls
 
-      name: read file
+      - name: read file
       run: cat readme.md
