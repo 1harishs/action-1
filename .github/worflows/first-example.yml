@@ -7,10 +7,10 @@ job:
     runs-on: ubuntu-latest
     steps:
     - name: Welcome message
-      run:echo "My first Git Hub Actions Job"
+      run: echo "My first Git Hub Actions Job"
 
-      - name: List filters
+    - name: lsit files
       run: ls
 
-      - name: read file
-      run: cat readme.md
+    - name: Read file
+      run: cat README.md
