@@ -10,7 +10,7 @@ job:
       run:echo "My first Git Hub Actions Job"
 
       -name: List filters
-      run: is
+      run: ls
 
       name: read file
       run: cat readme.md
